@@ -1,0 +1,35 @@
+> num_var <- 10.5
+> cat ("1. Numeric Variable\n")
+> cat ("Value : ", num_var, "\n")
+> cat ("Type : ", typeof (num_var) , "\n\n")
+
+
+> int_var <- 7L
+> cat ("2. Integer Variable\n")
+> cat ("Value: ", int_var, "\n")
+> cat ("Type : ", typeof (int_var) , "\n\n")
+
+
+> char_var <- "Hello, R! "
+> cat ("3. Character Variable\n")
+> cat ("Value:", char_var, "\n")
+> cat ("Type: ", typeof (char_var) , "\n\n")
+
+
+> log_var <- TRUE
+> cat ("4. Logical Variable\n")
+> cat ("Value : ", log_var, "\n")
+> cat ("TYPE: ", typeof (log_var), "\n\n")
+
+
+> comp_var <- 2+31
+> cat ("5. Complex Variable\n")
+> cat ("Value: ", comp_var, "\n")
+> cat ("TYPE:", typeof (comp_var), "\n\n")
+
+
+> num_var2 <- 10.99
+> int_converted <- as. integer (num_var2)
+> cat ("6. Convert Numeric to Integer\n")
+> cat ("Original Numeric: ", num_var2, "\n")
+> cat ("6. Converted to Integer: ", int_converted, "\n\n")
