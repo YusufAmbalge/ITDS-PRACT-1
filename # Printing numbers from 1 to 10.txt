@@ -1,0 +1,62 @@
+# Printing numbers from 1 to 10
+> for (i in 1:10) (
++ print (i)
++ }
+
+
+# Enter marks
+> marks <- as. numeric (readline (prompt = "Enter your marks:") )
+Enter your marks : 90
+
+# Check grade
+> if (marks >=90) {
++ grade <- "A"
++ } else if (marks >=80) {
++ garde <- "B"
++ } else if (marks >=70) {
++ garde <- "C"
++ } else if (marks >=60) {
++ garde <- "D"
++ } else {
++ garde <- "F"
++ }
+
+# Display grade
+> cat ("Your grade is:", grade, "\n")
+
+
+# Enter number
+> marks <- as integer (readline (prompt = "Enter a number:") )
+Enter a number : 4
+
+# Check even or odd
+> if (num \ 2 == 0) {
++ cat (num, "is Even\n")
++ } else {
++ cat (num, "is Odd\n")
++ }
+
+
+# Enter number
+> num <- as. integer (readline (prompt = "Enter a number:") )
+Enter a number : 4
+
+# Check even or odd
+if (num $$ 2 -- 0) {
++ cat (num, "is Even\n")
+} else {
++ cat (num, "is Odd\n")
++ }
+
+
+# Enter number
+> num <- readline (prompt = "Enter a number :")
+Enter a number : 66
+
+# Check palindrome
+> if (num == paste (rev (strsplit (num, NULL) [ [1] ] ) , collapse = "") } {
++ cat (num, "is a palindrome\n")
++ } else {
++ cat (num, "is Not a palindrome \n")
++ }
+
