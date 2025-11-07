@@ -1,0 +1,179 @@
+> num var <- 10.5
+
+> cat ("1. Numeric Variable\n")
+
+1. Numeric Variable
+
+> cat ("Value:",num_var,"\n")
+
+Value: 10.5
+
+> cat ("Type:", typeof(num_var),"\n\n")
+
+Type: double
+
+>
+
+>
+
+> int var <- 7L
+
+> cat ("2. Integer Variable\n")
+
+2. Integer Variable
+
+> cat ("Value:", int_var,"\n")
+
+Value: 7
+
+> cat ("Type:", typeof(int_var),"\n\n")
+
+Type: integer
+
+>
+
+>
+
+>
+
+>
+
+>
+
+> char_var <- "Hello,R!"
+
+> cat ("3. Character Variable\n")
+
+3. Character Variable
+
+> cat ("Value:",char_var, "\n")
+
+Value: Hello, R!
+
+> cat ("Type:", typeof(char_var), "\n\n")
+
+Type: character
+
+
+> log_var <-TRUE
+
+> cat ("4. Logical Variable\n")
+
+4. Logical Variable
+
+> cat ("Value:",log_var, "\n")
+
+Value: TRUE
+
+> cat ("TYPE:", typeof (log_var),"\n\n")
+
+TYPE: logical
+
+>
+
+>
+
+>
+
+> comp_var <-2+31
+
+> cat ("5.Complex Variable\n")
+
+5. Complex Variable
+
+> cat ("Value:",comp_var, "\n")
+
+Value: 2+31
+
+> cat ("TYPE:", typeof(comp_var),"\n\n")
+
+TYPE: complex
+
+>
+
+<
+
+>
+
+>
+
+> num var2 <- 10.99
+
+> int_converted <- as.integer (num_var2)
+
+> cat ("6. Convert Numeric to Integer\n")
+
+6. Convert Numeric to Integer
+
+> cat ("Original Numeric:",num_var2,"\n")
+
+Original Numeric: 10.99
+
+> cat ("6. Converted to Integer:", int converte
+
+6. Converted to Integer: 10
+
+
+> sum result <- 5+3
+
+> cat ("5+3 =", sum result, "\n")
+
+5+3 = 8
+
+>
+
+> diff result <- 10-4
+
+> cat ("10-4 =", diff_result,"\n")
+
+10-4 = 6
+
+>
+
+> prod_result <- 6*7
+
+> cat ("6*7=", prod result, "\n")
+
+6*7 = 42
+
+>
+
+> div result <- 10/2
+
+> cat ("10/2 =", div_result, "\n")
+
+10/2 = 5
+
+>
+
+>
+
+> exp result <- 2^3
+
+> cat ("2^3 =", exp_result,"\n")
+
+2^3 = 8
+
+>
+
+>
+
+> mod result <<<- 10%%3
+
+> cat ("10%%3 =", mod_result,"\n")
+
+10%%3= 1
+
+>
+
+<
+
+> intdiv result <<<-10%/%3
+
+> cat ("10%/%3 =", intdiv_result, "\n")
+
+10%/%3= 3
+
+
+
+
